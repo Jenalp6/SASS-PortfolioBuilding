@@ -5,8 +5,8 @@
 .about-bgImg-container{
     @include bgImage(50vh, $main-bgImage-path);
     display: flex;
-    justify-content:space-between;
-    flex-direction:column;
+    justify-content: space-between;
+    flex-direction: column;
 
     .about__bio-image{
         text-align: center;
@@ -20,10 +20,12 @@
         }
     }
 }
+
+
 //!grandparent
 .about{
     &__container{
-        width:70vw;
+        width: 70vw;
         margin: 2rem auto;
     }
     .about__job{
@@ -31,11 +33,12 @@
         background: lighten($primary-color, 10%);
         padding: 1rem;
         border-bottom: 5px solid $secondary-color;
-    }
-    h2,h3{
-        margin: 0.5rem 0;
-    }
-    h6{
-        margin: 0.3rem 0;
+        h2,h3{
+            margin: 0.5rem 0;
+        }
+
+        h6{
+            margin: 0.3rem 0;
+        }
     }
 }

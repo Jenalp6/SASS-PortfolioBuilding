@@ -6,8 +6,8 @@
     @include bgImage(40vh, $main-bgImage-path);
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    
+    justify-content: space-between;
+
     .projects__bio-image{
         text-align: center;
         margin-bottom: 0.5rem;
@@ -22,6 +22,8 @@
         justify-content: center;
         padding: 2rem 5rem;
         gap: 1rem 0rem;
+        
+
     }
 
     &__item{
@@ -29,6 +31,7 @@
         cursor: pointer;
         border-bottom: 5px solid $secondary-color;
         position: relative;
+        // width: 33%;
 
         img{
             width: 100%;

@@ -2,7 +2,7 @@
 //*   FOOTER
 //*****************************************************
 
-.link-style{
+.link-style {
     a{
         padding: 0.4rem;
         @include transition(1s);
@@ -14,16 +14,20 @@
 }
 
 
-.horizontal{
-    height:10vh;
+
+footer.horizontal{
+    // border: 2px solid red;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items: flex-end;
     padding: 1rem;
-    @extend .link-style
+    @extend .link-style;
 }
 
-.vertical{
+
+footer.vertical{
+    // border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -45,16 +49,15 @@
 
 }
 
+
 footer.middle {
-    height:20vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
+    // border: 2px solid red;
     justify-content: flex-start;
     align-items: center;
     padding: 1rem;
     gap: 1rem;
-
     @extend .link-style;
 }
-
-    
